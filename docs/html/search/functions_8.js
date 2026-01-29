@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['setattribute_0',['SetAttribute',['../structSXMLEntity.html#ae006811c9982568efecd6c4eedd9af38',1,'SXMLEntity']]],
+  ['setup_1',['SetUp',['../classSVGTest.html#a331db15996f60f4dabe217321e803d6d',1,'SVGTest']]],
+  ['simplementation_2',['SImplementation',['../structCSVGWriter_1_1SImplementation.html#a7e47db62da062a60a306d3671cd9c4b7',1,'CSVGWriter::SImplementation']]],
+  ['simplepath_3',['simplepath',['../structCSVGWriter_1_1SImplementation.html#a45e873587fe2f2f9a3bd3094bcc20508',1,'CSVGWriter::SImplementation::SimplePath()'],['../classCSVGWriter.html#a0f7ea4240afc62f99610d7e5c4ceb331',1,'CSVGWriter::SimplePath()']]],
+  ['string_4',['String',['../classCStringDataSink.html#a505ce5378467365ff13ca2221889ff1c',1,'CStringDataSink']]],
+  ['svg_5fcircle_5',['svg_circle',['../svg_8c.html#a42803de11e172275ac6102704145f5a1',1,'svg_circle(svg_context_ptr context, const svg_point_t *center, svg_real_t radius, const char *style):&#160;svg.c'],['../svg_8h.html#a42803de11e172275ac6102704145f5a1',1,'svg_circle(svg_context_ptr context, const svg_point_t *center, svg_real_t radius, const char *style):&#160;svg.c']]],
+  ['svg_5fcreate_6',['svg_create',['../svg_8c.html#abccb7ded9736285bdfae8670f7735ad7',1,'svg_create(svg_write_fn write_fn, svg_cleanup_fn cleanup_fn, svg_user_context_ptr user, svg_px_t width, svg_px_t height):&#160;svg.c'],['../svg_8h.html#abccb7ded9736285bdfae8670f7735ad7',1,'svg_create(svg_write_fn write_fn, svg_cleanup_fn cleanup_fn, svg_user_context_ptr user, svg_px_t width, svg_px_t height):&#160;svg.c']]],
+  ['svg_5fdestroy_7',['svg_destroy',['../svg_8c.html#adc7ec24931ed28eb7b8cee7fa8826e0a',1,'svg_destroy(svg_context_ptr context):&#160;svg.c'],['../svg_8h.html#adc7ec24931ed28eb7b8cee7fa8826e0a',1,'svg_destroy(svg_context_ptr context):&#160;svg.c']]],
+  ['svg_5fgroup_5fbegin_8',['svg_group_begin',['../svg_8c.html#a9199e69040e26fdfdf4b3943af83dd62',1,'svg_group_begin(svg_context_ptr context, const char *attrs):&#160;svg.c'],['../svg_8h.html#a9199e69040e26fdfdf4b3943af83dd62',1,'svg_group_begin(svg_context_ptr context, const char *attrs):&#160;svg.c']]],
+  ['svg_5fgroup_5fend_9',['svg_group_end',['../svg_8c.html#aafef5bb487235e9780ee410f36de0ece',1,'svg_group_end(svg_context_ptr context):&#160;svg.c'],['../svg_8h.html#aafef5bb487235e9780ee410f36de0ece',1,'svg_group_end(svg_context_ptr context):&#160;svg.c']]],
+  ['svg_5fline_10',['svg_line',['../svg_8c.html#a414df0e69691456e74635c090db04866',1,'svg_line(svg_context_ptr context, const svg_point_t *start, const svg_point_t *end, const char *style):&#160;svg.c'],['../svg_8h.html#a414df0e69691456e74635c090db04866',1,'svg_line(svg_context_ptr context, const svg_point_t *start, const svg_point_t *end, const char *style):&#160;svg.c']]],
+  ['svg_5frect_11',['svg_rect',['../svg_8c.html#a2124ac83325f9940ec227ba6b7d4e8a5',1,'svg_rect(svg_context_ptr context, const svg_point_t *top_left, const svg_size_t *size, const char *style):&#160;svg.c'],['../svg_8h.html#a2124ac83325f9940ec227ba6b7d4e8a5',1,'svg_rect(svg_context_ptr context, const svg_point_t *top_left, const svg_size_t *size, const char *style):&#160;svg.c']]]
+];

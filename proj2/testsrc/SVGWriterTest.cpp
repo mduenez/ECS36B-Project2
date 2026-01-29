@@ -3,27 +3,42 @@
 #include "StringDataSink.h"
 
 TEST(SVGWriterTest, CreateDestroyTest){
-
+    std::shared_ptr<CStringDataSink> Sink = std::make_shared<CStringDataSink>();
+    EXPECT_NO_THROW({
+        CSVGWriter Writer(Sink, 100, 100);
+    });
 }
 
 TEST(SVGWriterTest, CircleTest){
-    
+    std::shared_ptr<SStringDataSink> Sink = std::make_shared<CStringDataSink>();
+    CSVGWriter Writer(Sink, 100, 100);
+    SSVGPoint center{50, 50}; 
+    TSVGReal radius = 25;
+    TAttributes style;
+    bool result = Writer.Circle(center, radius, style);
+    EXPECT_TRUE(result);
+    std::string SVGOutput = Sink->GetString();
+
+    EXPECT_NE(svgOutput.find("<circle"), std::strign::npos);
+    EXPECT_NE(svgOutput.find("cx=\"50\""), std::string::npos);
+    EXPECT_NE(svgOutput.find(cy=\"50\""), std::string::npos);
+    EXPECT_NE(svgOutput.find("r=\"25\""), std::string::npos);
 }
 
 TEST(SVGWriterTest, RectangleTest){
-
+    FAIL() << "should fail";
 }
 
 TEST(SVGWriterTest, LineTest){
-
+    FAIL() << "should fail";
 }
 
 TEST(SVGWriterTest, SimplePathTest){
-
+    FAIL() << "should fail";
 }
 
 TEST(SVGWriterTest, GroupTest){
-
+    FAIL() << "should fail";
 }
 
 class CFailingSink : public CDataSink{
@@ -34,7 +49,7 @@ class CFailingSink : public CDataSink{
             if(DValidCalls){
                 DValidCalls--;
                 return true;
-            }
+            } 
             return false;
         }
 
@@ -48,5 +63,5 @@ class CFailingSink : public CDataSink{
 };
 
 TEST(SVGWriterTest, ErrorTests){
-
+    FAIL() << "should fail";
 }
