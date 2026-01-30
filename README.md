@@ -2,7 +2,7 @@
 Student 1: Melissa Duenez Ramirez (925447052)
 Student 2: Bowen Song (123456987)
 ## Project Status
-This the current status of the project ...
+So far, the makefile for this project is completed and allows code to compile and run. I've ensured that all the tests I ran failed. I transfered over code from svg.c 
 ## Known Issues
 The project fails to function properly in ...
 ## Code References
